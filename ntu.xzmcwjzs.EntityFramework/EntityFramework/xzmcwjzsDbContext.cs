@@ -3,6 +3,8 @@ using Abp.Zero.EntityFramework;
 using ntu.xzmcwjzs.Authorization.Roles;
 using ntu.xzmcwjzs.MultiTenancy;
 using ntu.xzmcwjzs.Users;
+using System.Data.Entity;
+using ntu.xzmcwjzs.Tasks;
 
 namespace ntu.xzmcwjzs.EntityFramework
 {
@@ -43,5 +45,8 @@ namespace ntu.xzmcwjzs.EntityFramework
         {
 
         }
+        //TODO: Define an IDbSet for your Entities...
+
+        public IDbSet<Task> Tasks { get; set; }
     }
 }

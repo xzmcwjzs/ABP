@@ -137,14 +137,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityFramework\Repositories\BackendTaskRepository.cs" />
     <Compile Include="EntityFramework\xzmcwjzsDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\xzmcwjzsRepositoryBase.cs" />
     <Compile Include="Migrations\201701271145151_AbpZero_Initial.cs" />
     <Compile Include="Migrations\201701271145151_AbpZero_Initial.Designer.cs">
       <DependentUpon>201701271145151_AbpZero_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704131413288_Add_Task_Entity.cs" />
+    <Compile Include="Migrations\201704131413288_Add_Task_Entity.Designer.cs">
+      <DependentUpon>201704131413288_Add_Task_Entity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\SeedData\DefaultTestDataForTask.cs" />
     <Compile Include="xzmcwjzsDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
     <Compile Include="Migrations\SeedData\DefaultLanguagesCreator.cs" />
@@ -168,6 +174,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201701271145151_AbpZero_Initial.resx">
       <DependentUpon>201701271145151_AbpZero_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704131413288_Add_Task_Entity.resx">
+      <DependentUpon>201704131413288_Add_Task_Entity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

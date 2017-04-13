@@ -121,6 +121,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppConsts.cs" />
+    <Compile Include="Dto\PagedAndFilteredInputDto.cs" />
+    <Compile Include="Dto\PagedAndSortedInputDto.cs" />
+    <Compile Include="Dto\PagedInputDto.cs" />
+    <Compile Include="Dto\PagedSortedAndFilteredInputDto.cs" />
+    <Compile Include="Tasks\Dtos\CreateTaskInput.cs" />
+    <Compile Include="Tasks\Dtos\GetTasksInput.cs" />
+    <Compile Include="Tasks\Dtos\GetTasksOutput.cs" />
+    <Compile Include="Tasks\Dtos\TaskCacheItem.cs" />
+    <Compile Include="Tasks\Dtos\TaskDto.cs" />
+    <Compile Include="Tasks\Dtos\UpdateTaskInput.cs" />
+    <Compile Include="Tasks\ITaskAppService.cs" />
     <Compile Include="xzmcwjzsApplicationModule.cs" />
     <Compile Include="xzmcwjzsAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />

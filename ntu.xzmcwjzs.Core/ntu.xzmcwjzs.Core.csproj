@@ -113,6 +113,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRepositories\IBackendTaskRepository.cs" />
+    <Compile Include="Tasks\Task.cs" />
     <Compile Include="xzmcwjzsConsts.cs" />
     <Compile Include="xzmcwjzsCoreModule.cs" />
     <Compile Include="Authorization\xzmcwjzsAuthorizationProvider.cs" />

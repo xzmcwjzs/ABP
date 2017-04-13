@@ -1,0 +1,5 @@
+D:\王杰\王杰-锅只是个传说\ABP框架学习\20170409\xzmcwjzs\ntu.xzmcwjzs.Common\bin\Debug\ntu.xzmcwjzs.Common.dll
+D:\王杰\王杰-锅只是个传说\ABP框架学习\20170409\xzmcwjzs\ntu.xzmcwjzs.Common\bin\Debug\ntu.xzmcwjzs.Common.pdb
+D:\王杰\王杰-锅只是个传说\ABP框架学习\20170409\xzmcwjzs\ntu.xzmcwjzs.Common\obj\Debug\ntu.xzmcwjzs.Common.csprojResolveAssemblyReference.cache
+D:\王杰\王杰-锅只是个传说\ABP框架学习\20170409\xzmcwjzs\ntu.xzmcwjzs.Common\obj\Debug\ntu.xzmcwjzs.Common.dll
+D:\王杰\王杰-锅只是个传说\ABP框架学习\20170409\xzmcwjzs\ntu.xzmcwjzs.Common\obj\Debug\ntu.xzmcwjzs.Common.pdb
